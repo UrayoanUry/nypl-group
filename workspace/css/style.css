@@ -1,0 +1,208 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* establishing global box-sizing:border-box, padding 0, margin 0 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    color: #86592d;
+}
+
+nav {
+    border-style: none;    
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+/* placing logo within nav */
+.logo {
+    margin-left: 10px;
+    height:100px;
+    width: 125px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: auto;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 23px;
+    color: #86592d;
+}
+
+nav a:hover {
+    color:#00cc00;
+}
+
+.banner {
+    background-image: url("../images/beach1.jpeg");
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    display: flex; /* makes the container a flex-container */
+    align-items: center; /* vertically centers text in flex-box */
+    justify-content: center; /* horizontally centers text in flex-box */
+    overflow: hidden;
+    color: #f7ffe6;
+    text-align: center;
+    font-size: 45px; 
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.col-2 {
+    width: 50%;
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.col-2 p {
+    margin-top: 10px;
+}
+
+
+.col-2 ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.col-2 a {
+    text-decoration: none;
+    color: #86592d;
+    
+}
+.top-row {
+    display: flex;
+    text-align: center;
+}
+
+.bottom-row {
+    display: flex;
+    text-align: center;
+}
+
+
+.col-3 {
+    width: 33.33%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-3 img {
+    border-style: solid;
+    border-width: thick;
+    border-color: #00cc00;
+}
+
+.full-img {
+    width: 100%;
+}
+
+.footer {
+  padding:20px;
+  margin-top:20px;
+  text-align: center;
+}
+  
+ .About {
+   text-align: center;
+ }     
+ 
+ .About img {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .About h1 {
+     margin-bottom: 20px;
+     margin-top: 20px;
+ }
+ 
+ .About p {
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+ 
+.more p {
+    margin-bottom: 30px;
+}
+ 
+ .top-row-2 {
+    display: flex;
+    text-align: left;
+ }    
+ 
+ .top-row-2 img {
+    border-color: #86592d;
+}
+ 
+.hiking  {
+    text-align: center;
+}
+
+.hiking img {
+     width: 50%;
+}
+
+.atv {
+    text-align: center;
+}
+
+.atv img {
+    width: 50%;
+}
+
+.zipline {
+    text-align: center;
+}
+
+.zipline img {
+    width: 50%;
+}
+
+.helicopter {
+    text-align: center;
+}
+
+.helicopter img {
+    width: 50%;
+}
+
+.Contact {
+    text-align: center;
+}    
+
+.hawaii-map {
+    width: 100%;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
